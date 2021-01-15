@@ -1,0 +1,35 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\wo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add antd
+
+PATH: 
+  D:\cmder\vendor\git-for-windows\mingw64\bin;D:\cmder\vendor\git-for-windows\usr\bin;C:\Users\wo\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\nodejs;D:\VSCode\Microsoft VS Code\bin;C:\WebStorm 2020.3.1\bin;C:\Users\wo\AppData\Local\Microsoft\WindowsApps;C:\Users\wo\AppData\Roaming\npm;C:\Users\wo\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.16.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\wo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
